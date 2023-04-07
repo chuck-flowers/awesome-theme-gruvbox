@@ -35,7 +35,7 @@ local colors                                    = {
 
 local theme= {}
 
-theme.font = "sans 8"
+theme.font = "FiraCode Nerd Font Mono 12"
 
 theme.bg_normal = colors.dark.black
 theme.bg_focus = colors.dark.black
