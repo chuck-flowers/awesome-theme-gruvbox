@@ -95,8 +95,8 @@ theme.menu_width                                = dpi(100)
 --theme.bg_widget = "#cc0000"
 
 -- Define the image to load
-theme.titlebar_close_button_normal              = themes_path .. "default/titlebar/close_normal.png"
-theme.titlebar_close_button_focus               = themes_path .. "default/titlebar/close_focus.png"
+theme.titlebar_close_button_normal              = themes_path .. "gruvbox/titlebar/close_normal.svg"
+theme.titlebar_close_button_focus               = themes_path .. "gruvbox/titlebar/close_focus.svg"
 
 theme.titlebar_minimize_button_normal           = themes_path .. "default/titlebar/minimize_normal.png"
 theme.titlebar_minimize_button_focus            = themes_path .. "default/titlebar/minimize_focus.png"
