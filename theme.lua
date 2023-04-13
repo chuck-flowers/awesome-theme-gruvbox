@@ -19,7 +19,8 @@ local colors                                    = {
 		blue = '#458588',
 		purple = '#b16286',
 		aqua = '#d89d6a',
-		white = '#a89984'
+		white = '#a89984',
+                orange='#d65d0e'
 	},
 	light = {
 		black = '#928374',
@@ -29,7 +30,8 @@ local colors                                    = {
 		blue = '#83a598',
 		purple = '#d3869b',
 		aqua = '#8ec07c',
-		white = '#ebdbb2'
+		white = '#ebdbb2',
+                orange='#fe8019'
 	}
 }
 
@@ -98,28 +100,28 @@ theme.menu_width                                = dpi(100)
 theme.titlebar_close_button_normal              = themes_path .. "gruvbox/titlebar/close_normal.svg"
 theme.titlebar_close_button_focus               = themes_path .. "gruvbox/titlebar/close_focus.svg"
 
-theme.titlebar_minimize_button_normal           = themes_path .. "default/titlebar/minimize_normal.png"
-theme.titlebar_minimize_button_focus            = themes_path .. "default/titlebar/minimize_focus.png"
+theme.titlebar_minimize_button_normal           = themes_path .. "gruvbox/titlebar/minimize_normal.svg"
+theme.titlebar_minimize_button_focus            = themes_path .. "gruvbox/titlebar/minimize_focus.svg"
 
-theme.titlebar_ontop_button_normal_inactive     = themes_path .. "default/titlebar/ontop_normal_inactive.png"
-theme.titlebar_ontop_button_focus_inactive      = themes_path .. "default/titlebar/ontop_focus_inactive.png"
-theme.titlebar_ontop_button_normal_active       = themes_path .. "default/titlebar/ontop_normal_active.png"
-theme.titlebar_ontop_button_focus_active        = themes_path .. "default/titlebar/ontop_focus_active.png"
+theme.titlebar_ontop_button_normal_inactive     = themes_path .. "gruvbox/titlebar/ontop_normal_inactive.svg"
+theme.titlebar_ontop_button_focus_inactive      = themes_path .. "gruvbox/titlebar/ontop_focus_inactive.svg"
+theme.titlebar_ontop_button_normal_active       = themes_path .. "gruvbox/titlebar/ontop_normal_active.svg"
+theme.titlebar_ontop_button_focus_active        = themes_path .. "gruvbox/titlebar/ontop_focus_active.svg"
 
-theme.titlebar_sticky_button_normal_inactive    = themes_path .. "default/titlebar/sticky_normal_inactive.png"
-theme.titlebar_sticky_button_focus_inactive     = themes_path .. "default/titlebar/sticky_focus_inactive.png"
-theme.titlebar_sticky_button_normal_active      = themes_path .. "default/titlebar/sticky_normal_active.png"
-theme.titlebar_sticky_button_focus_active       = themes_path .. "default/titlebar/sticky_focus_active.png"
+theme.titlebar_sticky_button_normal_inactive    = themes_path .. "gruvbox/titlebar/sticky_normal_inactive.svg"
+theme.titlebar_sticky_button_focus_inactive     = themes_path .. "gruvbox/titlebar/sticky_focus_inactive.svg"
+theme.titlebar_sticky_button_normal_active      = themes_path .. "gruvbox/titlebar/sticky_normal_active.svg"
+theme.titlebar_sticky_button_focus_active       = themes_path .. "gruvbox/titlebar/sticky_focus_active.svg"
 
-theme.titlebar_floating_button_normal_inactive  = themes_path .. "default/titlebar/floating_normal_inactive.png"
-theme.titlebar_floating_button_focus_inactive   = themes_path .. "default/titlebar/floating_focus_inactive.png"
-theme.titlebar_floating_button_normal_active    = themes_path .. "default/titlebar/floating_normal_active.png"
-theme.titlebar_floating_button_focus_active     = themes_path .. "default/titlebar/floating_focus_active.png"
+theme.titlebar_floating_button_normal_inactive  = themes_path .. "gruvbox/titlebar/floating_normal_inactive.svg"
+theme.titlebar_floating_button_focus_inactive   = themes_path .. "gruvbox/titlebar/floating_focus_inactive.svg"
+theme.titlebar_floating_button_normal_active    = themes_path .. "gruvbox/titlebar/floating_normal_active.svg"
+theme.titlebar_floating_button_focus_active     = themes_path .. "gruvbox/titlebar/floating_focus_active.svg"
 
-theme.titlebar_maximized_button_normal_inactive = themes_path .. "default/titlebar/maximized_normal_inactive.png"
-theme.titlebar_maximized_button_focus_inactive  = themes_path .. "default/titlebar/maximized_focus_inactive.png"
-theme.titlebar_maximized_button_normal_active   = themes_path .. "default/titlebar/maximized_normal_active.png"
-theme.titlebar_maximized_button_focus_active    = themes_path .. "default/titlebar/maximized_focus_active.png"
+theme.titlebar_maximized_button_normal_inactive = themes_path .. "gruvbox/titlebar/maximized_normal_inactive.svg"
+theme.titlebar_maximized_button_focus_inactive  = themes_path .. "gruvbox/titlebar/maximized_focus_inactive.svg"
+theme.titlebar_maximized_button_normal_active   = themes_path .. "gruvbox/titlebar/maximized_normal_active.svg"
+theme.titlebar_maximized_button_focus_active    = themes_path .. "gruvbox/titlebar/maximized_focus_active.svg"
 
 theme.wallpaper                                 = themes_path .. "gruvbox/background.jpg"
 
