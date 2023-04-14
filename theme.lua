@@ -61,7 +61,13 @@ theme.border_marked = "#91231c"
 -- defined, the sets are:
 -- taglist_[bg|fg]_[focus|urgent|occupied|empty|volatile]
 -- tasklist_[bg|fg]_[focus|urgent]
--- titlebar_[bg|fg]_[normal|focus]
+
+-- Title bar colors
+theme.titlebar_bg_normal = colors.dark.black
+theme.titlebar_fg_normal = colors.light.white
+theme.titlebar_bg_focus = colors.dark.black
+theme.titlebar_fg_focus = colors.light.white
+
 -- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
 -- mouse_finder_[color|timeout|animate_timeout|radius|factor]
 -- prompt_[fg|bg|fg_cursor|bg_cursor|font]
