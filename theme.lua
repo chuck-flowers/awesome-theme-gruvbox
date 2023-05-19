@@ -1,7 +1,3 @@
----------------------------
--- Default awesome theme --
----------------------------
-
 local theme_assets                              = require("beautiful.theme_assets")
 local xresources                                = require("beautiful.xresources")
 local dpi                                       = xresources.apply_dpi
@@ -59,8 +55,6 @@ theme.border_marked = "#91231c"
 -- There are other variable sets
 -- overriding the default one when
 -- defined, the sets are:
--- taglist_[bg|fg]_[focus|urgent|occupied|empty|volatile]
--- tasklist_[bg|fg]_[focus|urgent]
 
 -- Title bar colors
 theme.titlebar_bg_normal = colors.dark.black
@@ -68,21 +62,26 @@ theme.titlebar_fg_normal = colors.light.white
 theme.titlebar_bg_focus = colors.dark.black
 theme.titlebar_fg_focus = colors.light.white
 
+-- Tag list colors
+theme.taglist_bg_empty = colors.dark.black
+theme.taglist_fg_empty = colors.light.white
+theme.taglist_bg_focus = colors.light.white
+theme.taglist_fg_focus = colors.dark.black
+theme.taglist_bg_occupied = colors.dark.black
+theme.taglist_fg_occupied = colors.dark.green
+theme.taglist_bg_urgent = colors.dark.black
+theme.taglist_fg_urgent = colors.dark.red
+theme.taglist_bg_volatile = colors.dark.red
+theme.taglist_fg_volatile = colors.dark.black
+
+-- tasklist_[bg|fg]_[focus|urgent]
+
 -- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
 -- mouse_finder_[color|timeout|animate_timeout|radius|factor]
 -- prompt_[fg|bg|fg_cursor|bg_cursor|font]
 -- hotkeys_[bg|fg|border_width|border_color|shape|opacity|modifiers_fg|label_bg|label_fg|group_margin|font|description_font]
 -- Example:
 --theme.taglist_bg_focus = "#ff0000"
-
--- Generate taglist squares:
-local taglist_square_size                       = dpi(4)
-theme.taglist_squares_sel                       = theme_assets.taglist_squares_sel(
-	taglist_square_size, theme.fg_normal
-)
-theme.taglist_squares_unsel                     = theme_assets.taglist_squares_unsel(
-	taglist_square_size, theme.fg_normal
-)
 
 -- Variables set for theming notifications:
 -- notification_font
